@@ -174,8 +174,7 @@ Navbar
   align-items: center;
 }
 .navbar:hover {
-  box-shadow: inset -3px -3px 7px #ffffff,
-    inset 3px 3px 7px rgba(136, 165, 191, 0.48);
+  box-shadow: -4px -2px 16px #ffffff, 4px 2px 16px rgba(136, 165, 191, 0.48);
 }
 .nav-center {
   display: flex;
