@@ -13,7 +13,7 @@ Variables
 */
 :root {
   --primaryLightColor: #d4e6a5;
-  --primaryColor: #476a2e;
+  --primaryColor: #2b98ad;
   --primaryDarkColor: #c02c03;
   --primaryFont: 'Alata', sans-serif;
   --slantedFont: 'Roboto', sans-serif;
@@ -21,7 +21,7 @@ Variables
   --offWhite: #f7f7f7;
   --mainBackground: #f8f8f8;
   --mainOverlay: rgba(35, 10, 36, 0.4);
-  --mainBlack: #222;
+  --mainBlack: #016275;
   --mainGrey: #ececec;
   --darkGrey: #afafaf;
   --mainRed: #bd0303;
@@ -182,8 +182,9 @@ Navbar
 .nav-links a:hover {
   color: var(--primaryColor);
 }
-.logo {
-  width: 12rem;
+
+.navbar h1 {
+  color: var(--primaryColor);
 }
 /* 
 ====== 
