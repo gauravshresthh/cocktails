@@ -113,7 +113,9 @@ Buttons
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
   color: var(--primaryColor);
-  border: 2px solid var(--primaryColor);
+  background: #e3edf7;
+  box-shadow: -4px -2px 16px #ffffff, 4px 2px 16px rgba(136, 165, 191, 0.48);
+  border-radius: 16px;
   padding: 0.45rem 0.8rem;
   display: inline-block;
   transition: var(--mainTransition);
@@ -139,7 +141,6 @@ Buttons
 .btn-primary {
   background: var(--primaryColor);
   color: var(--mainWhite);
-  border-color: var(--primaryColor);
 }
 .btn-primary:hover {
   background: transparent;
@@ -153,7 +154,9 @@ Buttons
   text-align: center;
 }
 .btn-details {
-  padding: 0.25rem 0.4rem;
+  background: #e3edf7;
+  box-shadow: -4px -2px 16px #ffffff, 4px 2px 16px rgba(136, 165, 191, 0.48);
+  border-radius: 16px;
 }
 .btn-details:hover {
   background: var(--primaryLightColor);
