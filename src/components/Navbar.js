@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-center">
-        <h1>CocktailDB</h1>
+        <h1>Cocktail DB</h1>
         <ul className="nav-links">
           <li>
             <Link to="/">Home</Link>

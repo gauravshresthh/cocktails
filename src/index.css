@@ -185,6 +185,7 @@ Navbar
 
 .navbar h1 {
   color: var(--primaryColor);
+  align-items: center;
 }
 /* 
 ====== 
@@ -250,7 +251,7 @@ Cocktail
 .cocktail {
   background: var(--mainWhite);
   margin-bottom: 2rem;
-  box-shadow: var(--lightShadow);
+
   transition: var(--mainTransition);
   display: grid;
   grid-template-rows: auto 1fr;
@@ -295,7 +296,10 @@ Form
   padding: 1.25rem 1rem;
   text-transform: capitalize;
   border-radius: var(--mainBorderRadius);
+}
+.search-form:hover {
   box-shadow: var(--lightShadow);
+  transition: var(--mainTransition);
 }
 
 .form-control label {
@@ -310,6 +314,7 @@ Form
   border-radius: var(--mainBorderRadius);
   padding: 0.5rem;
   font-size: 1.2rem;
+  border-color: var(--primaryColor);
 }
 /* 
 ====== 
