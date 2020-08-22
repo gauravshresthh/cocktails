@@ -139,7 +139,6 @@ Buttons
   color: var(--primaryColor);
 }
 .btn-primary {
-  background: var(--primaryColor);
   color: var(--mainWhite);
 }
 .btn-primary:hover {
@@ -281,6 +280,8 @@ Cocktail
   box-shadow: var(--darkShadow);
 }
 .cocktail img {
+  height: 300px;
+  object-fit: contain;
   border-top-left-radius: var(--mainBorderRadius);
   border-top-right-radius: var(--mainBorderRadius);
 }
