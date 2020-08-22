@@ -99,5 +99,4 @@ export default function SingleCocktail() {
       </section>
     );
   }
-  return <>SingleCocktail{id}</>;
 }
