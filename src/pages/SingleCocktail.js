@@ -83,15 +83,31 @@ export default function SingleCocktail() {
         <div className="drink">
           <img src={image} alt={name} />
           <div className="drink-info">
-            <p>name : {name}</p>
-            <p>category : {category}</p>
-            <p>info : {info}</p>
-            <p>glass : {glass}</p>
-            <p>instructions : {instructions}</p>
             <p>
-              ingredients:
+              name : <span className="single-cocktail-detail">{name}</span>
+            </p>
+            <p>
+              category :{' '}
+              <span className="single-cocktail-detail">{category}</span>
+            </p>
+            <p>
+              info : <span className="single-cocktail-detail">{info}</span>
+            </p>
+            <p>
+              glass : <span className="single-cocktail-detail">{glass}</span>
+            </p>
+            <p>
+              instructions :{' '}
+              <span className="single-cocktail-detail">{instructions}</span>
+            </p>
+            <p>
+              ingredients :{' '}
               {ingredients.map((item, index) => {
-                return item ? <span key={index}>{item}</span> : null;
+                return item ? (
+                  <span className="single-cocktail-detail" key={index}>
+                    {item}
+                  </span>
+                ) : null;
               })}
             </p>
           </div>
