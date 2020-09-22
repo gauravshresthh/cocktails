@@ -1,4 +1,4 @@
-###Cocktails DB 
+#### Cocktails DB 
 
 
 Cocktails Database Project developed using John's Milga tutorial on ReactJS
